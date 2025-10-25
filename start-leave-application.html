@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Application - Navieros Transportation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+            <!-- Navigation -->
+            <nav class="navbar">
+                <div class="nav-container">
+                    <div class="nav-logo">
+                        <a href="index.html"><img src="logo.jpg" alt="Navieros Logo"></a>
+                    </div>
+                    <button class="nav-button" onclick="window.location.href='start-leave-application.html'" style="background-color: #000000; color: white; border: none; padding: 10px 20px; cursor: pointer;">
+                        Leave Application
+                    </button>
+                </div>
+            </nav>
+
+        <section >
+            <div class="form-container" style="margin-top: 50px !important;">
+                <div class="form-wrapper">
+                    <h1>Leave Application Form</h1>
+                    <p class="form-subtitle">Fill out our simple Navieros leave application form to ensure your request is processed quickly and efficiently. We value your time.</p>
+                    
+                    <form id="leaveApplicationForm" class="application-form">
+                        <div class="form-group">
+                            <label for="appliedBefore">Have you applied for leave before?</label>
+                            <select id="appliedBefore" name="appliedBefore" required>
+                                <option value="">Select one...</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="usCitizen">Are you a US citizen?</label>
+                            <select id="usCitizen" name="usCitizen" required>
+                                <option value="">Select one...</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="activeContract">Are you on an active contract?</label>
+                            <select id="activeContract" name="activeContract" required>
+                                <option value="">Select one...</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="leaveType">Which will you be applying for?</label>
+                            <select id="leaveType" name="leaveType" required>
+                                <option value="">Select one...</option>
+                                <option value="annual">Annual leave</option>
+                                <option value="emergency">Emergency leave</option>
+                            </select>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="applyingForOther">Are you applying for someone else?</label>
+                            <select id="applyingForOther" name="applyingForOther" required>
+                                <option value="">Select one...</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="email">Email Address [Alternative Email]</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        </div>
+        
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    <section>
+        <div class="bg-wrap-xzy893">
+            <div class="overlay-box-qwe123">
+              <h1 class="main-heading-nmn557">Stay up to date</h1>
+              <p class="subtext-kel429">Get regular updates about upcoming trips.</p>
+              <form class="form-area-zyx778">
+                <input type="email" placeholder="Your email" class="input-email-dfa654" required />
+                <button type="submit" class="btn-subscribe-mzx441">Subscribe</button>
+              </form>
+            </div>
+          </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
