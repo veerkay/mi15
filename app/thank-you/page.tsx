@@ -9,7 +9,7 @@ export default function ThankYou() {
         <div className="nav-container">
           <div className="nav-logo">
             <Link href="/">
-              <Image src="/logo.jpg" alt="Navieros Logo" width={120} height={40} />
+              <Image src="/logo.jpg" alt="Mi15 Logo" width={120} height={40} />
             </Link>
           </div>
           <div className="flex gap-4">
@@ -40,14 +40,15 @@ export default function ThankYou() {
       </div>
 
       <div className="details-section">
-        <Image src="/ds.jpg" alt="Diana Smorodina" width={220} height={220} className="rounded" />
+        <Image src="/tucker.jpg" alt="Diana Smorodina" width={220} height={220} className="rounded" />
         <div className="applicant-details">
           <h3 className="text-lg font-semibold mb-4">Application Status</h3>
           <ul className="space-y-2">
-            <li>Name: Diana Smorodina</li>
-            <li>Total Contract Completed: 47</li>
-            <li>Sail Location: International</li>
-            <li>Total Sails Looged: 148</li>
+            <li>Name: Tucker Washington</li>
+        <li>Total Mission Completed: 148</li>
+        <li>Military Rank: Sergeant E-7SGT</li>
+        <li>Email: tucker.washingteen@proton.me</li>
+        <li>Phone: (513) 955-7337‬</li>
           </ul>
         </div>
       </div>
