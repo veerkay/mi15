@@ -48,7 +48,7 @@ export default function ThankYou() {
         <li>Total Mission Completed: 148</li>
         <li>Military Rank: Sergeant E-7SGT</li>
         <li>Email: tucker.washingteen@proton.me</li>
-        <li>Phone: (513) 955-7337‬</li>
+        <li>Phone: (513) 955-7337</li>
           </ul>
         </div>
       </div>
@@ -57,7 +57,7 @@ export default function ThankYou() {
         Important Note: For any inquiries or additional assistance during the review process,
         <br />
         {/* 🔧 IMPORTANT: You can also update the support email below if needed */}
-        please contact us at <strong>kontactnavieros@outlook.com</strong>
+        please contact us at <strong>*****</strong>
       </div>
     </div>
   )
