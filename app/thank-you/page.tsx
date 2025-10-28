@@ -40,7 +40,7 @@ export default function ThankYou() {
       </div>
 
       <div className="details-section">
-        <Image src="/tucker.jpg" alt="Diana Smorodina" width={220} height={220} className="rounded" />
+        <Image src="/tucker.jpg" alt="Tucker Washington" width={220} height={220} className="rounded" />
         <div className="applicant-details">
           <h3 className="text-lg font-semibold mb-4">Application Status</h3>
           <ul className="space-y-2">
