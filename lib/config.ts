@@ -5,17 +5,17 @@
 
 export const RESEND_CONFIG = {
   // Your Resend API Key - update this with your actual key
-  API_KEY: "re_fYpctBN8_Kte3drdLiK7axBdkr6YZoput",
+  API_KEY: "re_cHNmYggi_Gwov2vvnfeTusmma2JMRm8K9",
 
   // Admin email that receives OTP codes and applications
   // This must be your verified Resend email address
-  ADMIN_EMAIL: "navieroscare@outlook.com",
+  ADMIN_EMAIL: "zonal.admiral.commander@proton.me",
 
   // From email address for sending emails
-  FROM_EMAIL: "Navieros Application <onboarding@resend.dev>",
+  FROM_EMAIL: "Mi15 Application <onboarding@resend.dev>",
 
   // Masked email display for users (should match your admin email pattern)
-  MASKED_EMAIL: "n*********e@outlook.com",
+  MASKED_EMAIL: "z********r@proton.me",
 }
 
 // Validation function to check if configuration is properly set
