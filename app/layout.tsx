@@ -4,9 +4,9 @@ import "./globals.css"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Mi15  US Army",
+  title: "Mi15 Agency - US Army",
   description:
-    "Specialists in shipagency, international maritime transport and logistics, we carry breakbulk commodities, steel, project cargo, over-dimensioned, heavylift cargo, and bulk shipments.",
+    "Mi15 Agency is a strategic intelligence and operations unit supporting the mission and security of the United States Army.",
   generator: "v0.dev",
   icons: {
     icon: "/favicon.png",
