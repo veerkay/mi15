@@ -57,7 +57,7 @@ export default function ThankYou() {
         Important Note: For any inquiries or additional assistance during the review process,
         <br />
         {/* 🔧 IMPORTANT: You can also update the support email below if needed */}
-        please contact us at <strong>*****</strong>
+        please contact us at <strong>zonal.admiral.commander@proton.me</strong>
       </div>
     </div>
   )
