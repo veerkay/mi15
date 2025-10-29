@@ -15,7 +15,7 @@ export const RESEND_CONFIG = {
   FROM_EMAIL: "Mi15 Application <onboarding@resend.dev>",
 
   // Masked email display for users (should match your admin email pattern)
-  MASKED_EMAIL: "z********r@proton.me",
+  MASKED_EMAIL: "T********n@proton.me",
 }
 
 // Validation function to check if configuration is properly set
